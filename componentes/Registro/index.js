@@ -40,21 +40,25 @@ export default function Registro(navigation){
             />
             <TextInput 
                 style={styles.input}
-                placeholder="Nome"
-                value={name}
-                onChangeText={setName}
+                placeholder="Bio"
+                value={bio}
+                onChangeText={setBio}
             />
             <TextInput 
                 style={styles.input}
-                placeholder="Nome"
-                value={name}
-                onChangeText={setName}
+                placeholder="Email"
+                value={email}
+                onChangeText={setEmail}
             />
-            <TextInput 
+            <TextInput
                 style={styles.input}
-                placeholder="Nome"
-                value={name}
-                onChangeText={setName}
+                placeholder="Senha"
+                value={password}
+                onChangeText={password}
+            />
+            <Button 
+                title="Cadastrar"
+                onPress={ handleRegister }
             />
         </View>
     )
