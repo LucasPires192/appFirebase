@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, Button } from 'react-native';
-import styles from './style.js';
+import { styles } from './style.js';
 
 export default function Home({ navigation }){
     <View style={ styles.container }>

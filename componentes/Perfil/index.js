@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, ActivityIndicator, TextInput, Button, Alert, Image } from 'react-native';
-import { auth } from './Firebase';
+import { auth } from '../Firebase';
 import { getFirestore, doc, getDoc, updateDoc } from 'firebase/firestore';
-import style from './style.js';
+import { styles } from './style.js';
 
 
 export default function Perfil(){

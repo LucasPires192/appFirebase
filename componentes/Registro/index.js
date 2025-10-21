@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Alert } from 'react-native';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { setDoc, doc } from 'firebase/firestore';
-import { auth, db } from './Firebase';
-import styles from './style.js';
+import { auth, db } from '../Firebase';
+import { styles } from './style.js';
 
 export default function Registro(navigation){
     const [email, setEmail] = useState('');

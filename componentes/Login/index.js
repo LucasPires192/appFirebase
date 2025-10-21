@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Alert } from 'react-native';
 import { signInWithEmailAndPassword, sendPasswordResetEmail } from 'firebase/auth';
-import { auth } from './Firebase';
-import styles from './style.js';
+import { auth } from '../Firebase';
+import { styles } from './style.js';
 
 export default function Login({ navigation }){
     const [email, setEmail] = useState('');

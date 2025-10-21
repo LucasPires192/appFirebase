@@ -13,35 +13,35 @@ export default function App() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                <StackScreen 
+                <Stack.Screen 
                     name = "Splash"
                     component={Splash}
                     options={
                             {headerShow: false}
                     } 
                 />
-                <StackScreen 
+                <Stack.Screen 
                     name = "Login"
                     component={Login}
                     options={
                             {headerShow: false}
                     } 
                 />
-                <StackScreen 
+                <Stack.Screen 
                     name = "Registro"
                     component={Registro}
                     options={
                             {headerShow: false}
                     } 
                 />
-                <StackScreen 
+                <Stack.Screen 
                     name = "Home"
                     component={Home}
                     options={
                             {headerShow: false}
                     } 
                 />
-                <StackScreen 
+                <Stack.Screen 
                     name = "Perfil"
                     component={Perfil}
                     options={
